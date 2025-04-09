@@ -159,7 +159,7 @@
   background-image: linear-gradient(to right,transparent, #00f2ffa7);
   position: fixed;
   width: 100%;
-  top: 80%;
+  top: 85%;
   /* left: 43%; */
   left: 99%;
   border-left: 5px solid #f7f7f7;
@@ -184,7 +184,7 @@
   }
   @keyframes slideInLeftSmlScr{
     to{
-      left:10%
+      left:-1%
     }
   }
   
