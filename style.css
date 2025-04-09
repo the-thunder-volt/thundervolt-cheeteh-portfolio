@@ -168,7 +168,7 @@
 }
 @keyframes slideInLeft{
   to{
-    left:43%
+    left:43%;
   }
 }
 @media (min-width:1000px) {
@@ -177,6 +177,19 @@
   }
   
 }
+@media (max-width:1000px) {
+  .banner:hover{
+    left:43%;
+    animation: slideInLeftSmlScr 1.8s ease forwards;
+  }
+  @keyframes slideInLeftSmlScr{
+    to{
+      left:10%
+    }
+  }
+  
+}
+
 .featured-gap{
   width: 17%;
 }
