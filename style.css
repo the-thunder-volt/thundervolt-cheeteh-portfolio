@@ -57,6 +57,9 @@
     opacity: 1;
   }
   .profile-pic {
+    -webkit-user-drag: none;
+    user-select: none;
+    pointer-events: none;
     width: 150px;
     height: 150px;
     object-fit: cover;
