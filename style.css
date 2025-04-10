@@ -68,7 +68,7 @@
     margin-bottom: 20px;
     opacity: 0.9;
   }
-  .profile-pic:hover{
+  .profile:hover .profile-pic{
     opacity: 1;
     box-shadow: 0px 0px 50px #00f2ffa7;
   }
