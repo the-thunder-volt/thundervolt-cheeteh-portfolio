@@ -40,12 +40,10 @@
     </div>
     <!-- Upcoming
     <div class="parent">
-        
         <div class="child">
             <button>child</button>
             <div></div>
         </div>
-
         <div class="child2">
             <div>child2</div>
         </div>
