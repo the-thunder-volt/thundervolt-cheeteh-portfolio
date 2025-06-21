@@ -5,23 +5,35 @@
     /* background-image: url("images/bg.webp"); */
 
   }
-  
+  .notification{
+    width: 100%;
+    position: fixed;
+    background-color: yellow;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
   body {
     /* background-image: url("images/bg.webp"); */
-
     font-family: 'Outfit', sans-serif;
+    /* margin: 10%; */
     height: 100vh;
-    background: #f7f7f7;
+
+    overflow: hidden;
+    position: relative;
+
     background: #000;
-    background-image: url("images/bg.webp") ;
+    background-image: url("images/bg.webp");
     /* background: #f7f7f700; */
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-attachment: fixed; */
+    
     color: #333;
     color: white;
     /* color: aquamarine; */
-    overflow: hidden;
-    position: relative;
+    
   }
   
   .main{
@@ -218,3 +230,65 @@
   /* left:50%; */
 
 }
+
+.content{
+  /* background-color: #00f2ff; */
+  display: block;
+  gap: 20px;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  /* width: 440px; */
+
+
+}
+.content img{
+  width: 50px;
+  /* display: flex; */
+  justify-self: center;
+  /* justify-content: center; */
+  /* justify-items: ; */
+}
+
+.image{
+  display: flex;
+}
+.content-cat{
+  height: 40px;
+  /* font-size: 2rem; */
+  display: flex;
+  background-color: #f51616;
+  flex-wrap: wrap;
+}
+/* ======================================================================================================================================================================== */
+
+
+
+
+.parent{
+  background-color: rgb(0, 255, 178);
+  height: 500px;
+  width: 1000px;
+  color: red;
+  display:flex;
+  /* flex-wrap: wrap; */
+  text-align: center;
+  /* justify-content: center; */
+  /* padding: ; */
+}
+.child{
+  /* display: block; */
+  height: 200px;
+  width: 300px;
+  background-color: blueviolet;
+  justify-self: end;
+
+}
+.child2{
+  height: 200px;
+  width: 300px;
+  background-color: rgb(171, 226, 43);
+  justify-self: end;
+}
+
