@@ -7,9 +7,13 @@
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link class="logo" rel="shortcut icon" href="images\logo_profile.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="notification">
+    <h3>!!! Site is Under Maintainance You might find some features broken !!!</h3>
+  </div>
   <!-- Top Right Social Icons -->
   <div class="top-right">
     <a href="https://github.com/the-thunder-volt"><img src="https://img.icons8.com/ios-filled/24/github.png" alt="GitHub"></a>
@@ -60,8 +64,40 @@
 
   </div>
   
-  <script src="script.js">
-  </script>
+  <!-- <script>
+    const lines = [
+      "Hey, Nice to see you here!",
+      You can find more about me more just visit the links all over."
+    ];
+  
+    const container = document.getElementById("typewriter");
+    container.innerHTML = ''; // Clear previous content
+  
+    let lineIndex = 0;
+  
+    function typeLine() {
+      if (lineIndex >= lines.length) return;
+  
+      const lineText = lines[lineIndex];
+      const div = document.createElement("div");
+      div.className = "line";
+      container.appendChild(div);
+  
+      let charIndex = 0;
+  
+      const interval = setInterval(() => {
+        if (charIndex < lineText.length) {
+          div.textContent += lineText[charIndex++];
+        } else {
+          clearInterval(interval);
+          lineIndex++;
+          setTimeout(typeLine, 600); // Pause between lines
+        }
+      }, 60); // Speed per character
+    }
+  
+    typeLine();
+  </script> -->
 </body>
 <footer class="ftr">
   <p>© 2025 Thunder Volt</p>
